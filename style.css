@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.navbar-inverse .navbar-nav > li > a.corlor-a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.nav img {
+  width: 100%;
+}
+.navbar {
+  background-color: #219653;
+  margin-bottom: 0;
+}
+.navbar-inverse .navbar-nav > .active > a.corlor-a {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.nav li:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0;
+  }
+}
+.navbar-inverse {
+  border: none;
+}
+.container-fluid {
+  padding-left: 5%;
+}
+.navbar-right {
+  padding-right: 5%;
+}
+.a {
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  background: linear-gradient(180deg, #ffffff 69.06%, #f2f2f2 100%);
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+#lich {
+  margin-left: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+
+  text-align: right;
+  color: #999999;
+}
+.right {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #219653;
+}
+.icon {
+  background-image: url(./img/lich.svg);
+  background-size: cover;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+p {
+  margin-bottom: 0;
+}
+.container {
+  position: relative;
+  margin: auto;
+  width: 90%;
+}
+.container1 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.container img {
+  width: 100%;
+}
+.tin-moi {
+  position: absolute;
+  left: 0;
+  top: 15px;
+  width: 102px;
+  height: 32px;
+  clip-path: polygon(0% 0%, 85% 0, 100% 50%, 85% 100%, 0% 100%);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  color: #000000;
+  background-color: #f2c94c;
+  display: flex;
+  align-items: center;
+}
+.tin-moi p {
+  padding: 6px;
+}
+.container2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(33, 150, 83, 0.8);
+}
+.container2 a {
+  color: #ffffff;
+  /* padding-left: 16px; */
+}
+.container2 h4 {
+  padding-left: 16px;
+  height: 20%;
+}
+.dong-ho {
+  background-image: url(./img/dongho.svg);
+  width: 13.33px;
+  height: 13.33px;
+  background-size: cover;
+  display: inline-block;
+  margin-left: 16px;
+}
+.container2 span {
+  color: #dddddd;
+  margin: 0 6px;
+  padding-right: 6px;
+}
+.ngay {
+  border-right: 1px solid #dddddd;
+}
+.container div {
+  margin-top: 9px;
+}
+.container3 h2 {
+  background-color: #ebf8d9;
+  font-size: 18px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  border-left: 3px solid green;
+  padding-left: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  /* font-size: 18px; */
+  line-height: 120%;
+  color: #219653;
+}
+.container3 h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+}
+.container3 h4 a {
+  color: #454545;
+}
+.container ul {
+  padding-left: 15px;
+  list-style: none;
+}
+.container3 li {
+  padding-top: 16px;
+}
+.container3 li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #242424;
+}
+.container3 ul li::before {
+  content: "\2022";
+  color: green;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.container4 img {
+  width: 100%;
+  padding-bottom: 12px;
+}
+.top-view {
+  padding-left: 0;
+}
+.top-view i {
+  padding: 0px 8px;
+  gap: 10px;
+  width: 35px;
+  height: 38px;
+  background: #f2f2f2;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #219653;
+  float: left;
+}
+.top-view h5 {
+  padding-left: 43px;
+  border-right: 1px solid #e2e2e2;
+}
+.top-view .col-sm-4 div {
+  padding-bottom: 16px;
+}
+.top-view .col-sm-4 {
+  padding-left: 0;
+  padding-right: 20px;
+}
+.top-view .col-sm-4 a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #454545;
+}
+.last h5 {
+  border: none;
+}
+.col-sm-12,
+.col-sm-6 {
+  /* padding-left: 0; */
+}
+.col-sm-12 .col-sm-6 img {
+  width: 100%;
+}
+.icon1 {
+  background-image: url(./img/icon.svg);
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.container5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ebf8d9;
+  margin-right: 10px;
+}
+h2 {
+  margin: 0;
+}
+.col-sm-6 img {
+  width: 100%;
+  /* margin-right: 20px; */
+  padding-right: 10px;
+}
+.thanhcuon {
+  background-image: url(./img/dautrang.svg);
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  position: fixed;
+  right: 27px;
+  bottom: 18px;
+}
+.hinde {
+  display: none;
+}
+footer {
+  margin-top: 61px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  background-color: #219653;
+  height: 34px;
+}
+.footer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.house {
+  background-image: url(./img/House.svg);
+  background-size: cover;
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+}
+.mang {
+  background-image: url(./img/mang.svg);
+  background-size: cover;
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+}
+.footer i {
+  margin-left: 20px;
+}
+.address {
+  background-color: #d0f693;
+  width: 100%;
+  height: 203px;
+  padding-left: 5%;
+}
+.address > div {
+  padding: 14px 0;
+}
+.lienhe {
+  display: flex;
+  padding-bottom: 16px;
+}
+.lienhe > div {
+  padding-right: 30px;
+}
+.address .lienhe {
+  padding-top: 0;
+}
+.luottruycap,
+.lienket {
+  width: 100%;
+  height: 82px;
+  background: linear-gradient(180deg, #ebf8d9 0.31%, #ebf8d9 100%);
+  border: 1px solid rgba(33, 150, 83, 0.2);
+  border-radius: 4px;
+  color: #219653;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  /* padding-left: 20px; */
+}
+.luottruycap p,
+.lienket label {
+  margin-top: 16px;
+  margin-left: 20%;
+}
+.luottruycap div,
+.lienket select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 28px;
+  margin-top: 0;
+  margin-left: 20%;
+  background: #ffffff;
+  text-align: center;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

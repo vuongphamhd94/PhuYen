@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .el-tltks {
+        --spacing: 0.5rem;
+        --column: 4;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-left: calc(-1 * var(--spacing));
+        margin-bottom: calc(-1 * var(--spacing));
+      }
+
+      .el-tltks .el-tltk {
+        margin-left: var(--spacing);
+        margin-bottom: var(--spacing);
+        width: calc(100% / var(--column) - var(--spacing));
+        min-height: 12.5rem;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="el-tltks">
+      <div class="el-tltk">adsa</div>
+      <div class="el-tltk">dasdsa</div>
+      <div class="el-tltk">dasdsa</div>
+      <div class="el-tltk">dasdsa</div>
+      <div class="el-tltk">dasdsa</div>
+      <div class="el-tltk">dasdsa</div>
+    </div>
+  </body>
+</html>
